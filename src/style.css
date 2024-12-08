@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 36px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.paragraph {
+    background-color: rgb(197, 67, 67);
+    color: black;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+}

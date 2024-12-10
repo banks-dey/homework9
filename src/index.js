@@ -38,39 +38,39 @@ const para3 = document.getElementById('para3');
 const para4 = document.getElementById('para4');
 const para5 = document.getElementById('para5');
 
-// Add event listeners to each element
+
 header.addEventListener('click', () => {
     header.style.backgroundColor = 'orange';
     header.style.fontSize = '2.5rem';
-    header.innerHTML = 'Header Clicked! 🎉 Learning is fun!';
+    header.innerHTML = 'I know now what DOM is 👍';
 });
 
 para1.addEventListener('click', () => {
     para1.style.backgroundColor = '#ADD8E6'; 
     para1.style.color = 'black';
-    para1.innerHTML = 'You clicked paragraph 1! DOM is awesome 👌';
+    para1.innerHTML = 'I know how to access/select elements . the DOM 👊🏼';
 });
 
 para2.addEventListener('click', () => {
     para2.style.backgroundColor = 'lightgreen';
     para2.style.color = 'black';
-    para2.innerHTML = 'Paragraph 2: You know how to access elements! 🖱';
+    para2.innerHTML = 'I know how to use the style methods to change the styleof an element in the DOM ✔️ ';
 });
 
 para3.addEventListener('click', () => {
     para3.style.backgroundColor = 'gold';
     para3.style.color = 'black';
-    para3.innerHTML = 'Paragraph 3: You can now style elements dynamically! ✨';
+    para3.innerHTML = 'I know the styling properties differ in JS from CSS ✨';
 });
 
 para4.addEventListener('click', () => {
     para4.style.backgroundColor = 'pink';
     para4.style.color = 'black';
-    para4.innerHTML = 'Paragraph 4: Styling is easy with JS! 💅';
+    para4.innerHTML = ' Styling is easy with JS! 💅';
 });
 
 para5.addEventListener('click', () => {
     para5.style.backgroundColor = 'red';
     para5.style.color = 'white';
-    para5.innerHTML = 'Paragraph 5: You did it! DOM manipulation complete! 🚀';
+    para5.innerHTML = 'Yes I did it!I manipulated the DOM and styles my elements 🚀';
 });
